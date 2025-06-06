@@ -1,2 +1,2 @@
 # mediaqueries
-En este proyecto mostramos estrategias tanto como mobile-first como desktop-first, en mi opinion es mucho mas facil empezar con mobile pero ya la decision la tiene las necesidades del usuario.
+En este proyecto mostramos estrategias tanto como mobile-first como desktop-first, dependiendo de lo que requiera el usuario es su uso, yo no podria elegirme con uno, aunque es bien sabido que el mobile-first tiene mas ventajas, en este caso usamos los dos y en proyectos como el formulario use desktop-first
