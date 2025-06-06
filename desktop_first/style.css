@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#f1f1f1;
+}
+
+h1{
+  display: inline-block;
+  text-shadow:
+    1px 1px 2px black,
+    0 0 1em rgb(255, 255, 255),
+    0 0 0.2em rgb(255, 0, 0);
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 40px;
+}
+nav {
+  display: inline-block;
+}
+nav a{
+  text-decoration: none;
+  margin-left: 100px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.casa{
+  margin-left:20px;
+}
+img{
+  display: inline-block;
+  width: 40%;
+  margin-top: 30px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.texto{
+  display: inline-block;
+  width: 52%;
+  vertical-align: top;
+  margin-top: 40px;
+  text-align: right;
+}
+h2{
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+p{
+  font-size: 25px;
+  font-style: italic;
+}
+
+.boton{
+  background-color: rgb(212, 166, 166);
+  padding: 10px;
+  width: 140px;
+  border-radius: 10px;
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin: 10px auto;
+}
+.icono{
+  display: none;
+}
+@media(max-width:767px){
+  body{
+    background-color: #e9e5e5;
+  }
+  h1{
+    font-size: 30px;
+  }
+  nav{
+    display: none;
+  }
+  header {
+  position: relative;
+  }
+  .icono {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  display: block;
+  font-size: 30px;
+  }
+  img{
+    display: block;
+    width: 320px;
+    margin: 40px auto;
+  }
+  .texto{
+    display: block;
+    text-align: center;
+    width: 90%;
+    margin: 20px auto;
+  }
+  h2{
+    font-size: 30px;
+  }
+  p{
+    font-size: 16px;
+  }
+}
